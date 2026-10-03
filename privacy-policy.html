@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RuleTap Privacy Policy</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #1a1a1a; background: #ffffff; max-width: 780px; margin: 0 auto; padding: 24px 18px 60px; }
+    h1 { font-size: 1.8em; margin-bottom: 0.2em; }
+    h2 { font-size: 1.25em; margin-top: 1.8em; border-bottom: 1px solid #e5e5e5; padding-bottom: 0.2em; }
+    h3 { font-size: 1.05em; margin-top: 1.2em; }
+    a { color: #0b5cad; }
+    ul { padding-left: 1.3em; }
+    .updated { color: #555; font-size: 0.95em; }
+  </style>
+</head>
+<body>
+
+<h1>RuleTap Privacy Policy</h1>
+<p class="updated">Last updated: [TO BE CONFIRMED BEFORE PUBLICATION]</p>
+
+<h2>1. Introduction</h2>
+<p>This Privacy Policy explains how the RuleTap Android application ("RuleTap", "the app", "we") handles information. RuleTap is an automation tool that performs actions on your device only according to rules that you define. This policy describes the current behaviour of the app.</p>
+
+<h2>2. Who We Are</h2>
+<ul>
+  <li><strong>App:</strong> RuleTap</li>
+  <li><strong>Package name:</strong> com.ruletap.app</li>
+  <li><strong>Privacy contact:</strong> <a href="mailto:ruletap.app@gmail.com">ruletap.app@gmail.com</a></li>
+</ul>
+
+<h2>3. Information RuleTap Accesses</h2>
+<p>While an automation run is active, RuleTap reads information from the screen of the app that is currently in the foreground, which may include:</p>
+<ul>
+  <li>on-screen text and values, such as prices, numbers, place names and durations;</li>
+  <li>content descriptions of on-screen elements;</li>
+  <li>the package name of the foreground app;</li>
+  <li>the position (bounds) and basic state of on-screen elements, such as whether an element is clickable.</li>
+</ul>
+
+<h2>4. How Information Is Used</h2>
+<p>RuleTap uses this information only to:</p>
+<ul>
+  <li>compare on-screen content with the search criteria in your rules;</li>
+  <li>identify the matching element on screen;</li>
+  <li>perform the tap actions that you have defined in the "Found" and "Not Found" steps of your rules;</li>
+  <li>show run status in the app and, if you have enabled it, play a notification sound.</li>
+</ul>
+<p>RuleTap does not use this information for advertising or profiling, and it does not choose targets or actions of its own. Every action is defined by the rules you configure.</p>
+
+<h2>5. Android Accessibility Service</h2>
+<p>RuleTap uses the Android Accessibility Service because it needs to read on-screen user-interface information from other apps and to perform tap actions that you have configured. The service runs only while you have started an automation run and have enabled the service in Android settings. You can stop a run at any time with the Stop button, and you can disable the service in Android settings at any time.</p>
+<p>The information described in Section 3 is processed on your device while a run is active. It is used to evaluate your own rules and to perform the configured actions.</p>
+<h3>Limitations of use</h3>
+<p>RuleTap does not intentionally use the Accessibility Service to collect, store, transmit or otherwise use passwords, payment credentials or other sensitive personal information as a feature of the service. RuleTap does not contain logic that identifies such fields in order to collect them.</p>
+<p>Please note that the Accessibility Service can technically access the content of an app's user-interface tree. The statements above describe what RuleTap is designed and intended to do; they are not a technical guarantee about what another app may display.</p>
+<p>RuleTap does not record audio, does not record camera or video, and does not record keyboard keystrokes or perform keylogging.</p>
+
+<h2>6. Local Processing</h2>
+<p>RuleTap processes the accessibility information described above locally on your device. RuleTap does not upload screen information to any RuleTap server, and the app does not have a backend that receives screen content. RuleTap does not sell or share this information.</p>
+
+<h2>7. Diagnostic Information</h2>
+<p>RuleTap keeps a short-term diagnostic log in device memory. The log holds a limited number of recent lines and can include text that appeared on screen, such as prices or place names, together with match results, timing, rule-related messages and error messages. This is needed for troubleshooting. The log exists in memory only while the app's process is running.</p>
+<p>If you choose to, you can share a diagnostic report from the Help screen. The report contains:</p>
+<ul>
+  <li>the app version and version code;</li>
+  <li>the device manufacturer and model, and the Android version;</li>
+  <li>whether the Accessibility Service is enabled and connected, and the app's current run status;</li>
+  <li>the recent contents of the diagnostic log.</li>
+</ul>
+<p>The report is written to the app's cache folder and is passed to the Android share sheet. You choose the destination, for example an email app. <strong>The report is never sent automatically.</strong> If you do not share it, it is not transmitted.</p>
+
+<h2>8. Information Stored on the Device</h2>
+<p>RuleTap stores the following in its app-private local storage (Android SharedPreferences):</p>
+<ul>
+  <li>your automation rules, including search criteria, Found and Not Found steps, delays and sort settings;</li>
+  <li>app settings, such as schedule, work and break timing, notification sound, language and scan frequency;</li>
+  <li>whether you have accepted the consent screen;</li>
+  <li>a local flag used by the app's access check (see Section 12);</li>
+  <li>your Android ID, as described in Section 9.</li>
+</ul>
+<p>Diagnostic export files are stored in the app's cache folder. RuleTap does not write its data to shared or external storage.</p>
+
+<h2>9. Android ID</h2>
+<p>RuleTap reads the Android ID (Settings.Secure.ANDROID_ID) on your device and stores a copy in local SharedPreferences. It is used only for a local licensing and anti-cloning check, which compares the stored value with the current value on the same device. The Android ID is processed on the device. It is not transmitted to RuleTap servers or to any third party by the app.</p>
+
+<h2>10. Sharing and Disclosure</h2>
+<ul>
+  <li>RuleTap does not automatically send screen information, rules or diagnostic information to the developer or to any third party.</li>
+  <li>Diagnostic information leaves your device only if you choose to share it, and only to the destination you choose.</li>
+  <li>RuleTap does not sell your information.</li>
+  <li>We may disclose information if we are required to do so by law.</li>
+</ul>
+
+<h2>11. Third-Party Services</h2>
+<ul>
+  <li><strong>Google Play and the Android platform:</strong> the app is distributed through Google Play and runs on the Android operating system, which provides the Accessibility Service and the other platform features the app uses.</li>
+  <li><strong>RevenueCat:</strong> RevenueCat is <strong>not active</strong> in the current version of RuleTap. No data is sent to RevenueCat by the current version. See Section 12.</li>
+  <li>The app does not include analytics, advertising or crash-reporting services.</li>
+</ul>
+<p>The app declares the Internet permission, which is required by the app's runtime. The app's own code does not send screen information, rules or diagnostic information over the network.</p>
+
+<h2>12. Subscriptions and Payments</h2>
+<p>In the current version of RuleTap, subscription and payment functionality is not active, and the app does not process purchase or payment information.</p>
+<p>Subscription or payment functionality may be introduced or activated in a future release. Before any such processing becomes applicable, this Privacy Policy will be updated to describe it, including the service providers involved and the data they handle.</p>
+
+<h2>13. Data Retention</h2>
+<ul>
+  <li><strong>Diagnostic log:</strong> kept in device memory only, and cleared when the app's process or service restarts.</li>
+  <li><strong>Diagnostic export file:</strong> kept in the app's cache folder. Its removal is managed by Android's cache handling. RuleTap does not set its own removal time.</li>
+  <li><strong>Rules, settings and other local state:</strong> kept in local storage until you change or delete them, or until the app's data is cleared or the app is uninstalled.</li>
+</ul>
+
+<h2>14. Deletion</h2>
+<ul>
+  <li>You can change or remove your rules and settings inside the app.</li>
+  <li>Clearing the app's data in Android settings, or uninstalling RuleTap, removes its local storage from your device, including the stored rules, settings and Android ID copy.</li>
+  <li>RuleTap has no user accounts, so there is no account deletion process.</li>
+  <li>RuleTap does not hold your information on its servers, so the developer cannot delete local data on your device remotely. Diagnostic reports that you have shared are held by the recipient you chose, and you should ask that recipient to delete them.</li>
+</ul>
+
+<h2>15. Security</h2>
+<p>Information that RuleTap stores is kept in the app's private storage, which Android isolates from other apps. Screen information is processed on the device while a run is active and is not transmitted by the app. No system can be guaranteed to be free of risk, and you should keep your device protected with a screen lock and up-to-date software.</p>
+
+<h2>16. Children's Privacy</h2>
+<p>RuleTap is not designed for children. We do not knowingly collect personal information from children. If you believe a child has provided information through the app, please contact us at <a href="mailto:ruletap.app@gmail.com">ruletap.app@gmail.com</a>.</p>
+
+<h2>17. Third-Party Apps and Services</h2>
+<ul>
+  <li>RuleTap works with apps that are installed on your device. You are responsible for complying with the terms of service and rules of any third-party app or platform that you use with RuleTap.</li>
+  <li>RuleTap is not affiliated with, endorsed by or authorised by Google or any third-party app, store or service provider.</li>
+  <li>You are responsible for the rules and actions that you configure. Please refer to the disclaimer shown in the app.</li>
+</ul>
+
+<h2>18. Privacy Rights and Questions</h2>
+<p>Depending on where you live, you may have rights over your personal information, such as the right to request access to, correction of, or deletion of that information, and the right to object to or restrict certain processing. RuleTap does not hold your personal information on its servers. Most information the app uses is stored only on your device, and you can view, change or delete it there.</p>
+<p>To make a privacy request or ask a question about this policy, contact <a href="mailto:ruletap.app@gmail.com">ruletap.app@gmail.com</a>. If you are in the United Kingdom or the European Economic Area, you may also have the right to lodge a complaint with your local data protection authority.</p>
+
+<h2>19. Changes to This Privacy Policy</h2>
+<p>We may update this policy. The updated version will be published at this page and the "Last updated" date will be revised. Where a change affects how information is processed, we will describe it before that processing takes effect.</p>
+
+<h2>20. Contact</h2>
+<p>Email: <a href="mailto:ruletap.app@gmail.com">ruletap.app@gmail.com</a></p>
+
+<h2>Information RuleTap Does Not Intentionally Collect or Transmit</h2>
+<p>Based on the app's current behaviour, RuleTap does not intentionally collect or transmit:</p>
+<ul>
+  <li>screen content, rules or diagnostic information to any server, automatically;</li>
+  <li>audio, camera or video recordings;</li>
+  <li>keyboard keystrokes;</li>
+  <li>location, contacts or other data for which the app does not request a permission;</li>
+  <li>passwords or payment credentials, as a feature of the service;</li>
+  <li>data for advertising, analytics or profiling.</li>
+</ul>
+
+</body>
+</html>
